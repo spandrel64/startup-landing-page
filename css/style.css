@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="css/style.css">
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: padding 0px 15px;
+}
+.links {
+	float: right;
+}
