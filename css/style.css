@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="css/style.css">
+
 body {
-    background-color: LightGray;
+    background-color: d3d3d3;
 }
 div {
     border: 1px solid Chocolate;
@@ -16,4 +17,8 @@ div {
 }
 .links {
 	float: right;
+}
+.logo {
+	margin-left: 1em;
+	margin-top: 1em;
 }
