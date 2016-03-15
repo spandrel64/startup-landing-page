@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a: hover,
+a: focus {
+	color: blue;
+	cursor: all;
+}
+
 body {
     background-color: LightGray;
     font-family: 'Roboto', sans-serif;
@@ -5,33 +17,57 @@ body {
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
+
 }
 div {
-    border: 1px solid Chocolate;
     font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
+
 }
 /* Navigation Section */
 .top-navigation {
    background-color: white;
+
    
 }
 .top-navigation .links{
 	background-color: white;
-	float: left;
+	width:65%;
+    text-align: center;
+    display: inline-block;
+    padding-bottom:13px;
+    padding-top:16px;
+    word-spacing: 1px;
+
 }
 .top-navigation > .content {
-    width: 970px;
-    height: 70px;
-    margin-left: padding 0px 15px;
+    width: 900px;
+    height: 5em;
+    /*THIS IS WHERE THE EXTRA SPACE PROBLEM*/
+}
+.top-navigation .links > .active {
+	 color: #4c5058;
+    font-weight: 500;
+	}
+	.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: center;
+    height: 45.938rem;
 }
  li {
 	display: inline-block;
 	list-style-type: none;
-	floa
+	margin-left: 2em;
+	float: right;
 
 
 }
@@ -40,6 +76,12 @@ div {
 	margin-left: 1em;
 	margin-top: 1em;
 	float: left;
+}
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
 }
 
 
