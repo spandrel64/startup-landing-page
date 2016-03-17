@@ -25,26 +25,29 @@ div {
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
+	display: block;
 
 }
 /* Navigation Section */
 .top-navigation {
    background-color: white;
+   position: relative;
 
    
 }
 .top-navigation .links{
+	float: right;
 	background-color: white;
-	width:65%;
-    text-align: center;
+    text-align: right;
     display: inline-block;
     padding-bottom:13px;
     padding-top:16px;
-    word-spacing: 1px;
+    word-spacing: px;
+    
 
 }
 .top-navigation > .content {
-    width: 900px;
+    width: 664px;
     height: 5em;
     /*THIS IS WHERE THE EXTRA SPACE PROBLEM*/
 }
@@ -62,6 +65,23 @@ div {
     background-repeat: no-repeat;
     background-size: center;
     height: 45.938rem;
+    margin:0 auto;
+    color: White;
+    text-shadow: 12;
+
+}
+
+.introduction .content {
+	color: White;
+	margin:0 auto;
+	margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+	display: inline-block;
+	margin-top: 12em;
+	margin-left: 8em;
+	min-width: 37.5rem;
 }
  li {
 	display: inline-block;
@@ -82,6 +102,11 @@ button {
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
+    width: 12em;
+    margin:0 auto;
+    color: White;
+    background-color: #D9400E;
+
 }
 
 
