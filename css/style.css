@@ -25,30 +25,44 @@ div {
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
-	display: block;
 
 }
 /* Navigation Section */
 .top-navigation {
    background-color: white;
    position: relative;
+  position: fixed;
+	width: 100%;
+	z-index: 9999;
+	float: right;
 
    
 }
-.top-navigation .links{
-	float: right;
+.top-navigation .content > .logo {
+	float: left;
+	margin-left: 3em;
+	margin-top:  1.5em;
+
+}
+.top-navigation .content > .links{
+	width:;
 	background-color: white;
-    text-align: right;
+	padding-left: ;
     display: inline-block;
     padding-bottom:13px;
-    padding-top:16px;
-    word-spacing: px;
+    padding-top:19px;
+    word-spacing: 1px;
+    float: right;
     
 
 }
 .top-navigation > .content {
-    width: 664px;
+	width: 100%;
+    padding-right: 1em;
     height: 5em;
+    padding-right: 5em;
+    
+
     /*THIS IS WHERE THE EXTRA SPACE PROBLEM*/
 }
 .top-navigation .links > .active {
@@ -61,33 +75,60 @@ div {
 }
 .introduction {
     background-image: url('../images/first-background.jpg');
-    background-position: center bottom;
-    background-repeat: no-repeat;
+    
     background-size: center;
+    margin-left: auto;
+    margin-right: auto;
     height: 45.938rem;
     margin:0 auto;
     color: White;
     text-shadow: 12;
+    
 
 }
 
 .introduction .content {
 	color: White;
-	margin:0 auto;
-	margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
 	display: inline-block;
-	margin-top: 12em;
-	margin-left: 8em;
-	min-width: 37.5rem;
+	margin-top: 20em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	font-family: 'Roboto', Sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 100%;
+	text-align: center;
+	font font-weight: inherit;
+	box-sizing: border-box;
+
+
 }
+h1 {
+	margin-top: 18.8em;
+	display: block;
+    font-size: 2.4em;
+    margin-top: 20em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+	font-family: 'Roboto', Sans-serif;
+	font-weight: lighter;
+    
+}
+h3 {
+	display: block;
+    font-size: 1.3em;
+    margin-top: 
+	font-family: 'Roboto', Sans-serif;
+	font-weight: lighter;
+
+}
+
  li {
 	display: inline-block;
 	list-style-type: none;
-	margin-left: 2em;
+	margin-left: 1em;
 	float: right;
+
 
 
 }
@@ -108,6 +149,45 @@ button {
     background-color: #D9400E;
 
 }
+.cases {
+	background-color: white;
+	display: inline-block;
+	width: 100%;
+}
+.cases .devices {
+    width: 20%;
+    display: inline-block;
+    align: cent;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    height: 4em;
+    
+}
+.cases h2 {
+	text-align: center;
+	display: block;
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    
+    
+    color: black;
+    
+}
+.footer{
+	margin-bottom: 10em;
+	border-color: black 1em 0;
+}
+.footer1 {
+	margin-bottom:  10em;
+	background-color: white;
+	color: white;
+	border-color: black 1em;
+	border-style: 1em;
+}
+
+
+
 
 
 
@@ -534,3 +614,7 @@ textarea {
 optgroup {
   font-weight: bold;
 }
+
+
+
+/*FONT AWESOME LINES BEGIN*/
