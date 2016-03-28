@@ -1,24 +1,4 @@
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-a: hover,
-a: focus {
-	color: blue;
-	cursor: all;
-}
 
-body {
-    background-color: LightGray;
-    font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #838994;
-	letter-spacing: 0.03em;
-	-webkit-font-smoothing: antialiased;
-
-}
 div {
     font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -27,6 +7,7 @@ div {
 	-webkit-font-smoothing: antialiased;
 
 }
+
 /* Navigation Section */
 .top-navigation {
    background-color: white;
@@ -35,15 +16,14 @@ div {
 	width: 100%;
 	z-index: 9999;
 	float: right;
-
-   
 }
+
 .top-navigation .content > .logo {
 	float: left;
 	margin-left: 3em;
 	margin-top:  1.5em;
-
 }
+
 .top-navigation .content > .links{
 	width:;
 	background-color: white;
@@ -53,17 +33,14 @@ div {
     padding-top:19px;
     word-spacing: 1px;
     float: right;
-    
-
 }
+
 .top-navigation > .content {
 	width: 100%;
     padding-right: 1em;
     height: 5em;
     padding-right: 5em;
     
-
-    /*THIS IS WHERE THE EXTRA SPACE PROBLEM*/
 }
 .top-navigation .links > .active {
 	 color: #4c5058;
@@ -107,7 +84,7 @@ h1 {
 	margin-top: 18.8em;
 	display: block;
     font-size: 2.4em;
-    margin-top: 20em;
+margin-top: 20em;
     -webkit-margin-before: 0.67em;
     -webkit-margin-after: 0.67em;
 	font-family: 'Roboto', Sans-serif;
@@ -149,28 +126,36 @@ button {
     background-color: #D9400E;
 
 }
+
+
+
+
+
+
+
 .cases {
 	background-color: white;
 	display: inline-block;
 	width: 100%;
+	padding-left: 10em;
+	float: left;
+
 }
 .cases .devices {
-    width: 20%;
+    width: 30.33%;
     display: inline-block;
-    align: cent;
+    text-align: center;
     /* styles to assist with debugging */
     box-sizing: border-box;
     height: 4em;
-    
+    border: 1px solid black;
 }
 .cases h2 {
 	text-align: center;
 	display: block;
     font-size: 2.75rem;
-    margin: 1.625rem 0 3.125rem;
+    margin: 1.625rem 0 .125rem;
     font-weight: 300;
-    
-    
     color: black;
     
 }

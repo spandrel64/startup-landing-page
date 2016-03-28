@@ -1,0 +1,42 @@
+ethan marcotte - father of responsive design
+http://adamkaplan.me/grid/
+flex box
+span is like a div -  inline element
+
+BEM - https://css-tricks.com/bem-101/
+
+poems are never completed only abandoned p valarie
+
+
+maslows hierachy of needs 
+	{
+
+	}
+	introduction .content {
+	color: White;
+	margin:0 auto;
+	margin-top: 0em;
+    margin-right:0 auto;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	display: block;
+	margin-top: 30%;
+	margin-left: 6em;
+	min-width: 37.5rem;
+	float: right;
+	padding-left: 1em;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 1em;
+	text-align: center;
+	font font-weight: 300;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	align-content: center;
+	padding-right: auto;
+
+
+}
+
+synthetic cdos
+squared cdos
